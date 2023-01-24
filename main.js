@@ -20,6 +20,7 @@ $(document).ready(function(){
         </div>
         `).appendTo(novoItem);
         $(novoItem).appendTo('ul');
+        $(novoItem).fadeIn(1000);
         $('#endereco-imagem-nova').val('')
     })
 })
